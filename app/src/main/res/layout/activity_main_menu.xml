@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainMenu"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_store_new_account"
+        android:layout_width="@dimen/menu_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_store_new_account"
+        android:layout_margin="8sp" />
+
+    <Button
+        android:id="@+id/button_get_password"
+        android:layout_width="@dimen/menu_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_get_stored_password"
+        android:layout_margin="8sp" />
+
+    <Button
+        android:id="@+id/button_delete_account"
+        android:layout_width="@dimen/menu_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_delete_stored_account"
+        android:layout_margin="8sp" />
+
+    <Button
+        android:id="@+id/button_quit"
+        android:layout_width="@dimen/menu_button_size"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label_quit"
+        android:layout_margin="8sp" />
+
+</LinearLayout>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PassVault</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="button_label_login">Login</string>
+    <string name="button_label_store_new_account">Store New Account</string>
+    <string name="button_label_get_stored_password">Get Stored Password</string>
+    <string name="button_label_delete_stored_account">Delete Stored Account</string>
+    <string name="button_label_quit">Quit</string>
 </resources>

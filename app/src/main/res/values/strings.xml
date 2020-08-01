@@ -6,4 +6,8 @@
     <string name="button_label_get_stored_password">Get Stored Password</string>
     <string name="button_label_delete_stored_account">Delete Stored Account</string>
     <string name="button_label_quit">Quit</string>
+    <string name="enter_platform_name_hint">Enter platform name</string>
+    <string name="enter_username_hint">Enter username</string>
+    <string name="enter_password_hint">Enter password</string>
+    <string name="button_label_register">Register</string>
 </resources>

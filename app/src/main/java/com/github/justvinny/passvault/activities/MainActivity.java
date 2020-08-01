@@ -22,7 +22,6 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final int MENU_RESULT = 0;
     public static final String SHARED_PREFS = "SHARED_PREFS";
     private static final String TAG = "MainActivity";
 
@@ -100,7 +99,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void launchMainMenu() {
         Intent loginIntent = new Intent(MainActivity.this, MainMenu.class);
-        startActivityForResult(loginIntent, MENU_RESULT);
+        loginIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(loginIntent);
+        MainActivity.this.finish();
     }
 
     private void passwordIncorrectMessage() {
@@ -110,17 +111,5 @@ public class MainActivity extends AppCompatActivity {
     private void passwordEmptyMessage() {
         Toast.makeText(getApplicationContext(), "Password can't be empty!", Toast.LENGTH_LONG)
                 .show();
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (requestCode == MENU_RESULT) {
-            if (resultCode == MainMenu.QUIT) {
-                finishAndRemoveTask();
-                System.exit(0);
-            }
-        }
     }
 }

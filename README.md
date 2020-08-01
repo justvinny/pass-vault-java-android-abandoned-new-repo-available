@@ -5,13 +5,13 @@ Pass Vault allows you to store your passwords for all of your accounts in one ap
 
 # Completed:
 - Login feature
+- Store accounts to persistent storage
 - Quit Button
 
 # Unfinished:
-- Store accounts to database
-- Create random generated password
-- Delete account from database
+- Delete account from file from persistent storage
 - View accounts stored
-  
+- Create random generated password
+
 # Screenshots:
 ![LoginFeature Screenshot](https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/LoginScreen.JPG)

@@ -28,6 +28,14 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        buttonViewAccounts = (Button) findViewById(R.id.button_get_password);
+        buttonViewAccounts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchShowAccountsActivity();
+            }
+        });
+
         buttonQuit = (Button) findViewById(R.id.button_quit);
         buttonQuit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +50,11 @@ public class MainMenu extends AppCompatActivity {
 
     private void launchStoreAccountActivity() {
         Intent intent = new Intent(getApplicationContext(), StoreAccount.class);
+        startActivity(intent);
+    }
+
+    private void launchShowAccountsActivity() {
+        Intent intent = new Intent(getApplicationContext(), ShowStoredAccounts.class);
         startActivity(intent);
     }
 }

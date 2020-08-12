@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.ShowStoredAccounts"></activity>
+        <activity android:name=".activities.ShowStoredAccounts"
+            android:label="Stored Accounts"
+            android:parentActivityName=".activities.MainMenu"/>
         <activity
             android:name=".activities.StoreAccount"
             android:label="Store New Account"

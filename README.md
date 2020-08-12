@@ -6,11 +6,11 @@ Pass Vault allows you to store your passwords for all of your accounts in one ap
 # Completed:
 - Login feature
 - Store accounts to persistent storage
+- View accounts stored and copy password to clipboard
 - Quit Button
 
 # Unfinished:
 - Delete account from file from persistent storage
-- View accounts stored
 - Create random generated password
 
 # Screenshots:

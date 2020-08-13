@@ -36,6 +36,14 @@ public class MainMenu extends AppCompatActivity {
             }
         });
 
+        buttonDeleteAccount = (Button) findViewById(R.id.button_delete_account);
+        buttonDeleteAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                launchDeleteAccountActivity();
+            }
+        });
+
         buttonQuit = (Button) findViewById(R.id.button_quit);
         buttonQuit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,6 +63,11 @@ public class MainMenu extends AppCompatActivity {
 
     private void launchShowAccountsActivity() {
         Intent intent = new Intent(getApplicationContext(), ShowStoredAccounts.class);
+        startActivity(intent);
+    }
+
+    private void launchDeleteAccountActivity() {
+        Intent intent = new Intent(getApplicationContext(), DeleteAccountActivity.class);
         startActivity(intent);
     }
 }

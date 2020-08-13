@@ -1,5 +1,7 @@
 package com.github.justvinny.passvault.domain;
 
+import java.util.Objects;
+
 public class PlatformAccount {
     private String platformName;
     private String platformUsername;
@@ -26,6 +28,21 @@ public class PlatformAccount {
     @Override
     public String toString() {
         return String.format("%s,%s,%s", platformName, platformUsername, platformPassword);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        PlatformAccount that = (PlatformAccount) o;
+        return Objects.equals(platformName, that.platformName) &&
+                Objects.equals(platformUsername, that.platformUsername) &&
+                Objects.equals(platformPassword, that.platformPassword);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(platformName, platformUsername, platformPassword);
     }
 
     public static PlatformAccount platformAccountFactory(

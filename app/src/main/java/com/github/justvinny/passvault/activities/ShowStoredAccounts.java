@@ -39,7 +39,7 @@ public class ShowStoredAccounts extends AppCompatActivity {
     }
 
     private void dynamicallyCreateButton() {
-        int count = 200;
+        int count = 100;
 
         for (final PlatformAccount platformAccount : listOfStoredAccounts) {
             String buttonText = String.format("%s (%s)", platformAccount.getPlatformUsername(),

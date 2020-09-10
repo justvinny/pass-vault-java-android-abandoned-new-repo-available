@@ -1,5 +1,8 @@
-# pass-vault-java-android
+# Pass Vault (Java)
 Pass Vault allows you to store your passwords for all of your accounts in one application and you won't have to worry about forgetting them ever again! This program is made for Android using Java. 
+
+# Old Desktop Version (Python)
+- [Desktop version](https://github.com/justvinny/tk_PassVolt)
 
 # Download First Working Prototype
 - [Click here to download](https://github.com/justvinny/pass-vault-java-android/raw/master/pass-vault-prototype.apk)

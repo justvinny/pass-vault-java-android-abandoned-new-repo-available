@@ -16,6 +16,8 @@ Pass Vault allows you to store your passwords for all of your accounts in one ap
 
 # Unfinished:
 - Create random generated password
+- Use navigation drawer with fragments for menu
+- Use card view instead of buttons for accounts
 
 # Screenshots:
 <img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/LoginScreen.JPG" alt="LoginFeature Screenshot" width="370" height="750">

@@ -23,16 +23,16 @@ Pass Vault allows you to store your passwords for all of your accounts in one ap
 - Use card view instead of buttons for accounts
 
 # Screenshots:
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/LoginScreen.JPG" alt="LoginFeature Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/LoginScreen.JPG" alt="LoginFeature Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/MainMenuActivity.jpg" alt="MainMenu Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/MainMenuActivity.jpg" alt="MainMenu Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/StoreAccountActivity.jpg" alt="StoreAccountFeature Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/StoreAccountActivity.jpg" alt="StoreAccountFeature Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/AccountStoredSuccessfully.jpg" alt="StoredSuccessfully Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/AccountStoredSuccessfully.jpg" alt="StoredSuccessfully Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/ShowStoredAccountActivity.jpg" alt="CopyAccountPasswordFeature Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/ShowStoredAccountActivity.jpg" alt="CopyAccountPasswordFeature Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/PasswordPastedFromClipboard.jpg" alt="PasswordPastedFromClipboard Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/PasswordPastedFromClipboard.jpg" alt="PasswordPastedFromClipboard Screenshot" width="370" height="750">
 
-<img src="https://github.com/justvinny/pass-vault-java-android/blob/master/Screenshots/DeleteAccountActivity.jpg" alt="DeleteAccountFeature Screenshot" width="370" height="750">
+<img src="https://github.com/justvinny/pass-vault-java-android-abandoned-new-repo-available/blob/master/Screenshots/DeleteAccountActivity.jpg" alt="DeleteAccountFeature Screenshot" width="370" height="750">
